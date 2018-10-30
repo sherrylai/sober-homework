@@ -1,0 +1,108 @@
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexfangsong.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* font-family: "Microsoft JhengHei"; */
+}
+
+body{
+    background-color: #ddd;
+    /* font-family: "cwTeXFangSong", serif; */
+}
+
+.wrap{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.main-img{
+    padding-top: 20px;
+    width: 400px;
+}
+
+.top{
+    position: relative;
+}
+
+.top h1{
+    color: #D10606;
+    font-size: 9em;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    
+}
+
+.top h1:after{
+    content: '';
+    float: left; 
+    position: absolute;
+    left: 72%;
+    bottom: -7vw;
+    width: 5px;
+    height: 200px;
+    background-color: #D10606;
+
+    /* width: 5px;
+    height: 200px;
+    background-color: #D10606;
+    position: absolute;
+    left: 60%;  */
+}
+
+.list{
+    list-style-type: none;
+    position: absolute;
+    left: 85%;
+    top: 85%;
+    color: #757575;
+    font-size: 1.2em;
+}
+
+.main{
+    background: #fff;
+    padding: 6%;
+    margin: 30px 0;
+    position: relative;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+}
+
+.title{
+    color: black;
+    font-size: 2em;
+}
+
+.txt{
+    border-bottom: 1px dashed #757575;
+}
+
+.float_img img {
+    width: auto;
+    max-height: 300px;
+    margin: 15px;
+    float: right;
+}
+
+.actor-title{
+    text-align: center;
+}
+
+table{
+    background: #ededed;
+    /* padding: 15px; */
+    /* border-spacing: 0; */
+    margin: 0 auto;
+}
+
+.footer{
+    background: #fdd835;
+    color: #414141;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    /* z-index: 100; */
+}
