@@ -27,7 +27,6 @@ body{
 }
 
 .top h1{
-  background: linear-gradient(red, yellow, green, blue);
   background: linear-gradient(rgba(159,127,65,1), rgba(252,240,197,1), rgba(107,85,54,1));
   -webkit-background-clip: text;
   color: transparent;
