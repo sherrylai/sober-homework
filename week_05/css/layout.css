@@ -1,0 +1,141 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+	font-family: 'Segoe UI',SegoeUI,'Microsoft JhengHei',微軟正黑體,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 18px;
+	line-height: 1.5;
+	text-align: center;
+}
+
+.logo img{
+	padding:20px; 
+}
+
+nav{
+	width: 100%;
+	height: 60px;
+	background: #eee;
+	line-height: 60px;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.bn img{
+	width: 100%;
+	/* background-size:cover;  */
+	/* overflow:hidden; */
+}
+
+.warp{
+	margin: 0 auto;
+	padding: 0 10%;
+}
+
+.title{
+	padding: 40px;
+}
+
+.section-1>.item {
+	width: 33.3333333333%;
+	float: left;
+	padding: 20px;
+}
+
+.section-1>.item img{
+	width: 100%;
+}
+
+.section-2{
+	clear: both;
+	background-image: url(../images/joanna-kosinska-453787-unsplash.jpg);
+    background-size: 50%;
+    background-repeat: no-repeat;
+	background-position: left center;
+	padding:10% 0;
+}
+
+.section-2 .brand-content{
+	width: 50%;
+	margin-left: 50%;
+	text-align: right;
+    line-height: 2;
+    padding: 3% 5%;
+}
+
+.brand-image>.item {
+	width: 50%;
+	float: left;
+  }
+
+  .brand-image>.item img{
+	width: 100%;
+  }
+
+
+footer{
+	clear: both;
+	padding: 0 10%;
+}
+
+.footer-tittle{
+	font-size: 36px;
+	padding-top:70px; 
+	color: #6A727D;
+}
+
+.footer-ct{
+	font-size: 16px;
+	line-height: 2;
+	padding: 10px 260px;
+	color: #6A727D;
+}
+
+.buynow{
+	border-radius: 0px;
+	color: #fff;
+	background: #6A727D;
+	margin-top: 30px;
+	padding: 10px;
+}
+
+.footer{
+	margin: 5px 40px;
+}
+
+.copyright{
+	border-top:1px solid #DCD8D8; 
+	margin-top: 70px;
+	color: #6A727D;
+	padding-top: 20px;
+}
+
+@media screen and (max-width:768px) {
+	.section-1>.item {
+		width: 100%;
+	}
+
+	.section-2 {
+		background-size: cover;
+	}
+
+	.section-2 .brand-content{
+		width: 100%;
+		margin-left:0;
+		text-align: center;
+    	line-height: 1.5;
+		padding: 5% 10%;
+		background: rgba(255, 255, 255, .5);
+	}
+
+	.footer-ct{
+		padding: 10px 10px;
+	}
+
+}
